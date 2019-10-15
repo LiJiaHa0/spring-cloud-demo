@@ -22,11 +22,13 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <version>${spring-boot.version}</version>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
+
     <modules>
         <module>spring-eureka-demo</module>
+        <module>spring-gateway-demo</module>
     </modules>
 </project>
